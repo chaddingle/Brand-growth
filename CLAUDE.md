@@ -40,7 +40,7 @@ Broad. Students, early-career people and anyone trying to get their act together
 ## Repo layout
 ```
 CLAUDE.md                     ← this file (all agents read it)
-.claude/agents/researcher.md  ← analyzes a week's folder and writes a report
+.claude/agents/researcher.md  ← finds trending videos (via Chrome) + analyzes your week folder
 .claude/agents/writer.md      ← turns the report into scripts
 research/
   README.md                   ← what to drop in each week, and how
@@ -49,8 +49,8 @@ research/
   YYYY-Www/                   ← one folder per week (e.g. 2026-W47)
     transcripts/              ← 10-20 viral video transcripts (.txt/.md)
     analytics/                ← your TikTok analytics export (csv/screenshots/notes)
-reports/                      ← researcher output: YYYY-Www-research.md
-drafts/                       ← writer output: YYYY-Www-scripts.md
+research/report-YYYY-MM-DD.md ← researcher output
+scripts/week-YYYY-MM-DD.md    ← writer output
 ```
 
 ## Weekly run
